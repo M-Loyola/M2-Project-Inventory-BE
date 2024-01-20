@@ -1,0 +1,5 @@
+CREATE TABLE user_list (
+     id INT AUTO_INCREMENT PRIMARY KEY,
+     username VARCHAR(255) UNIQUE NOT NULL,
+     password VARCHAR(50)
+);
